@@ -1,2 +1,3 @@
 Capstone
 # Perceptron-for-Handwriting-recognition
+The first entry is the digit label (“1” or “5”), and the next 256 are grayscale values between -1 and 1. The 256 pixels correspond to a 16 × 16 image. You can test your solution by running “main.py” file. Note that code is provided to compute a two-dimensional feature (symmetry and average intensity) from each digit image; that is, each digit image is represented by a two-dimensional vector before being augmented with a “1” to form a three-dimensional vector. These features along with the corresponding labels should serve as inputs to your Perceptron algorithm
